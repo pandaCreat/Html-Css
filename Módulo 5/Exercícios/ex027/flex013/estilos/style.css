@@ -24,15 +24,12 @@ header{
     justify-content: space-between;
 }
 
-header h1{
-    border: 1px dotted black;
-    
+header h1{  
+    align-self: center;
     flex: 0 0 200px;
 }
 
 header nav{
-    border: 1px dotted black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
